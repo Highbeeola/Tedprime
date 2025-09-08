@@ -45,7 +45,7 @@ body {
 .but {
   display: flex;
   gap: 1.5rem;
-  
+
   margin-left: 1rem;
   margin-top: 0.5rem;
 }
@@ -712,15 +712,14 @@ input {
 .testimonial-card {
   background: #fff;
   border: 1px solid #e5e7eb;
-  border-radius: 16px; /* slightly bigger corners */
-  padding: 40px; /* more space inside */
+  border-radius: 16px;
+  padding: 40px;
   max-width: 700px;
-  margin: 60px auto; /* more space outside (top/bottom) */
+  margin: 60px auto;
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.06);
 }
-
 .ratin {
-  color: #f59e0b; /* orange stars */
+  color: #f59e0b;
   margin-bottom: 20px;
 }
 
@@ -767,4 +766,11 @@ input {
   gap: 20px;
   font-size: 20px;
   color: #a1a1aa;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
 }
